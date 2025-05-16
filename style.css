@@ -183,3 +183,113 @@ body {
     text-decoration: none;
     color: #202020;
 }
+.mosques {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.m-title {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+    color: #202020;
+}
+
+.mosques {
+    padding: 1em 0;
+}
+
+.m-row {
+    display: flex;
+    gap: 10px;
+}
+
+.m-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1em;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    text-decoration: none;
+}
+
+.m-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mi-title, .mi-text {
+    margin: 0;
+}
+
+#mi-1 {
+    background: url(assets/m1.jpg) center center no-repeat;
+    background-size: 100%;
+    transition: .2s all;
+}
+
+#mi-1:hover {
+    background-size: 110%;
+}
+
+#mi-2 {
+    background: url(assets/m2.jpg) center center no-repeat;
+    background-size: 100%;
+    transition: .2s all;
+}
+
+#mi-2:hover {
+    background-size: 110%;
+}
+
+#mi-3 {
+    background: url(assets/m3.jpg) center center no-repeat;
+    background-size: 100%;
+    transition: .2s all;
+}
+
+#mi-3:hover {
+    background-size: 110%;
+}
+
+#mi-4 {
+    background: url(assets/m4.jpg) center center no-repeat;
+    background-size: 100%;
+    transition: .2s all;
+}
+
+#mi-4:hover {
+    background-size: 110%;
+}
+
+#mi-5 {
+    background: url(assets/m5.jpg) center center no-repeat;
+    background-size: 100%;
+    transition: .2s all;
+}
+
+#mi-5:hover {
+    background-size: 110%;
+}
+
+#mi-6 {
+    background: url(assets/m6.jpg) center center no-repeat;
+    background-size: 100%;
+    transition: .2s all;
+}
+
+#mi-6:hover {
+    background-size: 110%;
+}
+
+.mi-text, .mi-title {
+    text-shadow: #000000 0px 0px 5px;
+}
